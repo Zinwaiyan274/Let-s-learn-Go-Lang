@@ -27,10 +27,10 @@ func main()  {
 	welcome_user = append(welcome_user,   "nice to meet you")
 	fmt.Println(len(welcome_user)) 
 
-
+ 
 
 
 	var username string
 	fmt.Scan(&username)
-	fmt.Printf(username)
+	fmt.Printf("Hello %v",username)
 }
