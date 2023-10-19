@@ -22,10 +22,21 @@ func main()  {
 	fmt.Println(arrary[0])
 	fmt.Println(arrary[1])
 
-	var welcome_user []string
+	 welcome_user := []string{}
 	//above is arrary. let's explore about slice, slice availabile dynamic size, abstraction of arrary
-	welcome_user = append(welcome_user,   "nice to meet you")
+	welcome_user = append(welcome_user, "blabla" ,  "nice to meet you")
 	fmt.Println(len(welcome_user)) 
+
+
+	new_arrary := []string{}
+
+
+	new_arrary = append(new_arrary, "hola")
+	new_arrary = append(new_arrary, "!")
+	
+
+	fmt.Println(new_arrary)
+	fmt.Println(len(new_arrary))
 
  
 
