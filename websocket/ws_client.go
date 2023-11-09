@@ -1,4 +1,4 @@
-package goLan_learn
+package websocket
 
 import (
 	"github.com/gorilla/websocket"
